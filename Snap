@@ -1,0 +1,3 @@
+cd wealth-snapshot
+npx vercel login
+npx vercel --prod
