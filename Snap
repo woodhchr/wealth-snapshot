@@ -1,3 +1,8 @@
-cd wealth-snapshot
-npx vercel login
-npx vercel --prod
+cd "c:\Users\Chris Woodhouse\OneDrive - Marcus & Millichap\Documents\fractr\wealth-snapshot"
+
+git init
+git add .
+git commit -m "Initial commit: Wealth Snapshot app"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/wealth-snapshot.git
+git push -u origin main
